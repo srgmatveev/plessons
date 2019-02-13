@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="6" time="0.534"><testcase classname="test.words_count_test" file="test/words_count_test.py" line="7" name="test_make_flat_list" time="0.001"></testcase><testcase classname="test.words_count_test" file="test/words_count_test.py" line="11" name="test_is_verb_true" time="0.061"><system-out>do
+[(&apos;do&apos;, &apos;VB&apos;)]
+</system-out></testcase><testcase classname="test.words_count_test" file="test/words_count_test.py" line="15" name="test_is_verb_false" time="0.001"><system-out>punch
+[(&apos;punch&apos;, &apos;NN&apos;)]
+</system-out></testcase><testcase classname="test.words_count_test" file="test/words_count_test.py" line="19" name="test_get_file_names" time="0.000"></testcase><testcase classname="test.words_count_test" file="test/words_count_test.py" line="25" name="test_all_function_names" time="0.001"><system-out>[&apos;./projects/django/first.py&apos;, &apos;./projects/django/__init__.py&apos;]
+</system-out></testcase><testcase classname="test.words_count_test" file="test/words_count_test.py" line="32" name="test_remove_functions_names_with_danders_from_list" time="0.000"></testcase></testsuite>

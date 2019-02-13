@@ -1,0 +1,7 @@
+*.pyc
+.tox/*
+__pycache__/*
+.pytest_cache/*
+wordscount.egg-info/*
+./*.xml
+
