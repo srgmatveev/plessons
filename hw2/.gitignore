@@ -7,5 +7,6 @@ analizer.egg-info/*
 build/*
 dist/*
 *.txt
-**/tmp1/*
-**/tmp/*
+./**/tmp1/*
+./**/tmp/*
+./**/tmp*/*
