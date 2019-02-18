@@ -1,0 +1,11 @@
+*.pyc
+.tox/*
+__pycache__/*
+.pytest_cache/*
+analizer.egg-info/*
+./*.xml
+build/*
+dist/*
+*.txt
+**/tmp1/*
+**/tmp/*
