@@ -9,7 +9,11 @@
             "command": "clear&&",
             "args": [
                 "/home/sergio/.virtualenvs/venv/bin/python",
-                "${cwd}/hw2.py"
+                "${cwd}/hw2.py",
+                "--r",
+                "https://github.com/srgmatveev/kud",
+                "--t",
+                 "tmp1",
             ],
             "group": {
                 "kind": "build",

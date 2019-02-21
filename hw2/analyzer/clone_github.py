@@ -27,4 +27,5 @@ class CloneGitHub(iCloneRepo):
         os.mkdir(path)
 
     def clone(self):
-        return Repo.clone_from(self.from_url, self.to_path)
+        if self.to_path is not None and self.from_url is not None:
+            return Repo.clone_from(self.from_url, self.to_path)

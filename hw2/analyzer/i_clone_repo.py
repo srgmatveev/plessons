@@ -6,3 +6,5 @@ class iCloneRepo():
     @abstractmethod
     def clone(self):
         '''Clone repository'''
+
+
