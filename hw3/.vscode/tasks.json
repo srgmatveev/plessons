@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run python",
+            "type": "shell",
+            "command": "clear&&",
+            "args": [
+                "/home/sergio/.virtualenvs/venv/bin/python",
+                "${cwd}/hw3.py",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$eslint-compact"
+            ]
+        },
+        {
+            "label": "run test",
+            "type": "shell",
+            "command": "clear&&",
+            "args": [
+                "/home/sergio/.virtualenvs/venv/bin/pytest",
+                "-v",
+                "-s",
+                "${cwd}/test/"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$eslint-compact"
+            ]
+        },
+    ]
+}
